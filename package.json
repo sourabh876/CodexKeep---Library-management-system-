@@ -1,0 +1,24 @@
+{
+  "name": "codexkeep",
+  "version": "1.0.0",
+  "description": "File management system",
+  "main": "index.js",
+  "scripts": {
+     "start" : "node index.js",
+     "dev" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sourabh876/CodexKeep---Library-management-system-.git"
+  },
+  "author": "sourabh soni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sourabh876/CodexKeep---Library-management-system-/issues"
+  },
+  "homepage": "https://github.com/sourabh876/CodexKeep---Library-management-system-#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}

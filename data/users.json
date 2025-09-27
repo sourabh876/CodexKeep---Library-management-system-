@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "role": "member",
+        "membershipDate": "2023-01-15",
+        "borrowedBooks": [101, 102]
+    },
+    {
+        "id": 2,
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "role": "librarian",
+        "membershipDate": "2022-09-10",
+        "borrowedBooks": []
+    },
+    {
+        "id": 3,
+        "name": "Charlie Lee",
+        "email": "charlie.lee@example.com",
+        "role": "member",
+        "membershipDate": "2023-03-22",
+        "borrowedBooks": [103]
+    }
+]
