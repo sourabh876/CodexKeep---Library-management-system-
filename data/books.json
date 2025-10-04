@@ -1,0 +1,35 @@
+{
+    "books":[
+  {
+    "id": "1",
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "copies": "5"
+  },
+  {
+    "id": "2",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "copies": 4
+  },
+  {
+    "id": "3",
+    "title": "The Palace of Illusions",
+    "author": "Chitra Banerjee Divakaruni",
+    "copies": 3
+  },
+  {
+    "id": "4",
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "copies": 6
+    
+  },
+  {
+    "id": "5",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "copies": 2
+  }
+]
+    }
