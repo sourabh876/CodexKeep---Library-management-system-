@@ -1,0 +1,94 @@
+@baseUrl = http://localhost:8081
+
+//home page
+# GET {{baseUrl}}
+
+
+
+# GET {{baseUrl}}/users
+
+// get user by their id
+# GET {{baseUrl}}/users/2
+
+
+//creating a new user
+
+# POST {{baseUrl}}/users
+# Content-Type: application/json
+
+# {
+#      "id": "7",
+#       "name": "Archna Sharma",
+#       "email": "archna@example.com",
+#       "membership_type": "Premium",
+#       "joined_date": "2024-03-10",
+#       "borrowed_books": [
+#         {
+#           "book_id": "B101",
+#           "title": "The Alchemist",
+#           "borrow_date": "2025-09-20",
+#           "due_date": "2025-10-05"
+#         }
+#       ]
+# }
+
+// updating a user
+
+# PUT  {{baseUrl}}/users/5
+# Content-Type: application/json
+
+# {
+#     "data":{
+#         "id":5,
+#         "name": "sourabh"
+#     }
+# }
+
+
+# DELETE  {{baseUrl}}/users/3
+# Content-Type: application/json
+
+
+
+// get the list of all books
+
+# GET {{baseUrl}}/books
+
+//get the book by its id
+
+# GET {{baseUrl}}/books/4
+
+//Add a new book
+
+# POST {{baseUrl}}/books
+# Content-Type: application/json
+
+# {
+#     "id": "6",
+#     "title": "GOT",
+#     "author": "targeyrian",
+#     "copies" : "0"
+# }
+
+//update a book by its id
+
+# PUT {{baseUrl}}/books/2
+# Content-Type: application/json
+
+# {
+#     "data":{
+#         "id": "5"
+#     }
+# }
+
+//deleting a user 
+
+# DELETE {{baseUrl}}/books/4
+
+// get list of issued books
+
+# GET {{baseUrl}}/books/issued/for-users
+
+
+// get all the subscription details of every user
+GET {{baseUrl}}/users/subscription-details/3
